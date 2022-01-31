@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-api",
+  "version": "1.0.0",
+  "description": "restaurant apis",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^15.0.0",
+    "fastify": "^3.27.0",
+    "fastify-openapi-glue": "^2.6.6",
+    "mongoose": "^6.1.8",
+    "nanoid": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
