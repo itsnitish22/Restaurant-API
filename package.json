@@ -14,7 +14,7 @@
     "dotenv": "^15.0.0",
     "fastify": "^3.27.0",
     "fastify-openapi-glue": "^2.6.6",
-    "mongoose": "^6.1.9",
+    "mongoose": "^6.1.10",
     "nanoid": "^3.2.0"
   },
   "devDependencies": {
